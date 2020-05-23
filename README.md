@@ -45,3 +45,25 @@ We use [SemVer](http://semver.org/) for versioning.
 ## License
 
 This project is licensed under the GNU GPL v3 License - see the [LICENSE](LICENSE) file for details
+
+## API Specification
+
+This project is [OpenAPI](https://swagger.io/resources/open-api/) compatible
+
+The url is formed like:
+
+```
+http://{server}:{port}/{context-path}/v3/api-docs
+```
+
+Go to this URL for Swagger UI
+```
+http://localhost:9090/api/v1/spring-boot-rest-starter/swagger-ui.html
+```
+
+and
+
+```
+http://localhost:9090/api/v1/spring-boot-rest-starter/v3/api-docs
+```
+for the OpenAPI json
